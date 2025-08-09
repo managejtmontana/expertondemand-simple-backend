@@ -1,11 +1,9 @@
 {
   "name": "expertondemand-simple-backend",
   "private": true,
-  "type": "module",
   "version": "0.1.0",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "engines": { "node": ">=16" },
+  "scripts": { "start": "node server.js" },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
